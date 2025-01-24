@@ -1,6 +1,7 @@
 package com.yogesh.tranning.shopping;
 
 public abstract class Product {
+	//Created abstract class to achieve abstraction
 	 private String name;
 	 private double price;
 
@@ -24,7 +25,7 @@ public abstract class Product {
 	 public void setPrice(double price) {
 	     this.price = price;
 	 }
-
+// Created abstract method here we know the this method is not completed logically 100 %
 	 public abstract void addToCart();
 	
 }
