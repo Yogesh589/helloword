@@ -4,6 +4,7 @@ import java.util.Scanner;
 
 class Demo {
 	Scanner sc = new Scanner(System.in);
+	
 	//Question 1 Print the length of string  
 	void findLenghtOfString() {
 		System.out.println("Enter the Stringto find out the length");
@@ -22,7 +23,7 @@ class Demo {
 		System.out.println("Coversion Uppercase to Lowercase : " + upperCaseString.toLowerCase());
 }
 	
-	//Question 3 Print the string in reverse order without reverse();
+	//Question 3 Print the string in reverse order without reverse()
 	void stringReverseWithoutUsingReverse() {
 		String reverseString="";
 		System.out.println("Enter string do you want to reverse it");
