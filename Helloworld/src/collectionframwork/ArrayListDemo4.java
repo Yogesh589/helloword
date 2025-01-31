@@ -16,9 +16,7 @@ public class ArrayListDemo4 {
 			System.out.println("Enter 3 to Update Emloyee");
 			System.out.println("Enter 4 to Search/Find Employee");
 			System.out.println("Enter 5 to see All Employee");
-			System.out.println("Enter 6 to see All Employee");
-
-			System.out.println("Enter 7 to exit Application");
+			System.out.println("Enter 6 to exit Application");
 			choice = sc.nextInt();
 			switch (choice) {
 			case 1:
@@ -71,13 +69,9 @@ public class ArrayListDemo4 {
 				System.out.println(employeelist);
 
 				break;
+			
+
 			case 6:
-				System.out.println(employeelist);
-				System.out.println("SortedArray List :"employeelist.sort());
-
-				break;
-
-			case 7:
 				System.out.println("Thank You");
 			}
 		} while (choice != 6);
